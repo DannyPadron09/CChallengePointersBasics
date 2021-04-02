@@ -3,5 +3,11 @@
 
 int main()
 {
+
+    int num = 150;
+    int *pNum = NULL;
+
+    pNum = &num;
+    
     return 0;
 }
